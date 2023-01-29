@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Hind', sans-serif;
+    font-size: 62.5%;
+    color: #212529;
+    line-height: 1.5;
+    background-color: #000;
+}
+/* header  */
+header{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+header .navbar-brand{
+    font-size: 3.6rem;
+    color: #fff;
+}
+header .navbar-brand i{
+    font-size: 4.5rem;
+    color: #35a22c;
+}

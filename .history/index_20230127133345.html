@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg py-3 navbar-dark">
+            <a class="navbar-brand" href="#">
+                <i class="fa fa-dice-d20"></i>
+                <span>CyberPortfolio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPort"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarPort">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="myCarousel">
+        <div id="carouselPort" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselPort" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselPort" data-slide-to="1"></li>
+                <li data-target="#carouselPort" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="overlay"></div>
+                    <img src="./img/finland.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption container">
+                        <div class="carousel__thumb">
+                            <img class="animate__animated animate__fadeInUp" src="./img/01-3.jpg" alt="" />
+                        </div>
+                        <h5 class="animate__animated animate__fadeInUp animate__delay-1s">
+                            Our goals. Our mission.
+                        </h5>
+                        <p class="animate__animated animate__fadeInUp animate__delay-2s">
+                            How we help other companies to grow.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="./img/mountains.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption container">
+                        <div class="carousel__thumb">
+                            <img class="animate__animated animate__fadeInUp" src="./img/02-3.jpg" alt="" />
+                        </div>
+                        <h5 class="animate__animated animate__fadeInUp animate__delay-1s">
+                            Our goals. Our mission.
+                        </h5>
+                        <p class="animate__animated animate__fadeInUp animate__delay-2s">
+                            How we help other companies to grow.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="./img/mountains-1.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption container">
+                        <div class="carousel__thumb">
+                            <img class="animate__animated animate__fadeInUp" src="./img/03-3.jpg" alt="" />
+                        </div>
+                        <h5 class="animate__animated animate__fadeInUp animate__delay-1s">
+                            Our goals. Our mission.
+                        </h5>
+                        <p class="animate__animated animate__fadeInUp animate__delay-2s">
+                            How we help other companies to grow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselPort" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselPort" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="projects py-5">
+        <div class="container py-5">
+            <div class="heading text-center mx-auto">
+                <h2>I Love What I Do</h2>
+                <p class="my-3">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                    posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+                    sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum
+                    primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                    Nulla mollis dapibus nunc
+                </p>
+            </div>
+            <div class="projects__content pt-3">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+                            aria-controls="pills-home" aria-selected="true">All Projects</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-illu-tab" data-toggle="pill" href="#pills-illu" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Illustration</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-photo-tab" data-toggle="pill" href="#pills-photo" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Photography</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-web-tab" data-toggle="pill" href="#pills-web" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Website</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
+                        aria-labelledby="pills-all-tab">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card projects__item">
+                                    <img src="./img/g1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Apologetic robot holding flowers</h5>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card projects__item">
+                                    <img src="./img/g2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Woman walking her small dog</h5>
+                                        <p class="card-text">Illustrations</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card projects__item">
+                                    <img src="./img/g3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Oil bottle branding</h5>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card projects__item">
+                                    <img src="./img/g4.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Smiling Woman</h5>
+                                        <p class="card-text">Illustrations</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card projects__item">
+                                    <img src="./img/g5.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Drink can design</h5>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card projects__item">
+                                    <img src="./img/g1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Apologetic robot holding flowers</h5>
+                                        <p class="card-text">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-illu" role="tabpanel" aria-labelledby="pills-illu-tab">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="pills-photo" role="tabpanel" aria-labelledby="pills-photo-tab">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature"></section>
+    <section class="award"></section>
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

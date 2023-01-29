@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Hind', sans-serif;
+    font-size: 62.5%;
+    color: #212529;
+    line-height: 1.5;
+    background-color: #fff;
+}
+/* header  */
+header{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+header .navbar-brand{
+    font-size: 3.6rem;
+    color: #fff;
+}
+header .navbar-brand i{
+    font-size: 4.5rem;
+    color: #35a22c;
+}
+#navbarPort .nav-item{
+    margin: 0 1rem;
+}
+#navbarPort .nav-item .nav-link{
+    color: #fff;
+    font-size: 1.6rem;
+    transition: all .5s;
+}
+#navbarPort .nav-item:hover .nav-link{
+    color: #35a22c;
+}
+#navbarPort .nav-item::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #35a22c;
+    display: block;
+    transition: all .5s;
+
+}
+#navbarPort .nav-item:hover::after{
+    width: 100%;
+}
+#navbarPort .nav-item.active .nav-link{
+    color: #35a22c;
+}
+#navbarPort .nav-item.active::after{
+    width: 100%;
+}
+/* carousel  */
+.myCarousel .carousel-item{
+    height: 100vh;
+}
+.myCarousel .carousel-caption{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.myCarousel .carousel-caption h5{
+    font-size: 5.6rem;
+    line-height: 6.5rem;
+}
+.myCarousel .carousel-caption p{
+    font-size: 2.4rem;
+}
+.carousel__thumb{
+    width: 14rem;
+    padding: 8px;
+}
